@@ -19,7 +19,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-16'>
            <div className="flex items-center justify-between w-full lg:flex-col">
                <div className='w-1/2 md:w-full'>
-                <Image src={profilePic} alt="urmil" className='w-full h-auto lg:hidden md:inline-block md:w-full'
+                <Image style={{paddingRight:'15px'}} src={profilePic} alt="urmil" className='w-full h-auto lg:hidden md:inline-block md:w-full'
                 priority
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
@@ -27,15 +27,19 @@ export default function Home() {
                  />
                </div>
                <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-                <AnimatedText text="The alchemy of code and design turns pixels into purpose and wireframes into wonders" className='!text-4xl !text-left 
-                xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl
-                '/>
+  <AnimatedText 
+    text="The alchemy of code and design turns pixels into purpose and wireframes into wonders"
+    className='!text-4xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl custom-padding' // Add the custom-padding class
+  />
+  
+
+
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>  
                 Driven by a dedication to excellence, I leverage my skills as a versatile full-stack developer to bring imaginative ideas to fruition. Dive into my collection of recent projects, where the realms of creativity and technical prowess converge.
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                   <Link href="RESUME_URMIL-TRIVEDI.pdf" target={"_blank"}
-                  className="flex items-center bg-dark text-light p-2.5 px-6
+                  className="flex items-center bg-dark text-light p-2 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark
                   
