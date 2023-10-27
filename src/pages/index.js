@@ -38,7 +38,7 @@ export default function Home() {
                 Driven by a dedication to excellence, I leverage my skills as a versatile full-stack developer to bring imaginative ideas to fruition. Dive into my collection of recent projects, where the realms of creativity and technical prowess converge.
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
-                  <Link href="RESUME_URMIL-TRIVEDI.pdf" target={"_blank"}
+                  <Link href="Resume-Urmil_Trivedi.pdf" target={"_blank"}
                   className="flex items-center bg-dark text-light p-2 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark

@@ -56,12 +56,21 @@ style={{scaleY: scrollYProgress}}
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
         <Details
-              position="Software Developer"
+              position="Software Engineer Intern"
               company="All IT Solutions"
               companyLink="https://allitsolutions.us/"
-              time="Summer 2022"
+              time="Summer 2023"
               address="New Jersey|Remote"
-              work="Specialized in leveraging the G-Suite ecosystem and Google Apps Script to create tailor-made solutions for clients. With expertise in JavaScript, HTML, and CSS, I have successfully developed responsive and intuitive web applications that boosted client satisfaction scores by 20%. Additionally, I have gained proficiency in Jira and Confluence, including their APIs, enabling me to contribute effectively to development projects."          />
+              work="Crafted high performance web applications using Node.js, MongoDB, and React.js, leading to 40% improvement
+              in response times, while ensuring seamless scalability.
+              • Streamlined RESTful APIs for CRUD operations on user-generated content, such as posts, comments, and likes, and
+              utilized Redux for state management to ensure seamless data flow throughout the application, including developing
+              reducers, actions, and selectors to manage the state and dispatch changes.
+              • Created and tested REST endpoints using POSTMAN for accurate API testing and validation, resulted in a 25%
+              reduction in API bugs.
+              • Worked with AXIOS, promise based HTTP client for the browser and node.js for hitting REST endpoints and fetching
+              data into the app leading to 20% reduction in data retrieval times.
+              "/>
 
             <Details
               position="Software Developer Intern"
@@ -78,7 +87,6 @@ style={{scaleY: scrollYProgress}}
             <Details
               position="Software Developer Intern,"
               company="Triyaza HealthCare"
-              // companyLink="https://amazon.com"
               time="Fall 2021"
               address="Ahmedabad,India"
               work="built an employee management application aimed at streamlining workload distribution across the enterprise. 
