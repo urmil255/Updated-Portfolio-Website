@@ -43,16 +43,10 @@ const Education = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-        <Details
-            type="B.E in Electronics And Communication"
-            time="2018-2022"
-            place="L.D College Of Engineering"
-            info="Completed several relevant coursework that has equipped me with valuable skills and knowledge. Some of the courses I have successfully undertaken include C++, Data Structures and Algorithms (DSA), Python, and Artificial Intelligence (AI). These subjects have provided me with a strong foundation in programming languages, problem-solving techniques, and advanced concepts in AI. Through these courses, I have gained practical experience and developed proficiency in these areas, allowing me to effectively apply my skills to real-world scenarios."
-          />
 
           <Details
-            type="Master of Computer Science"
-            time="2022-2024"
+            type="Master of Science In Computer Science"
+            time="2024"
             place="Pace University"
             info=" Completed studies in Internet Computing, AWS (Amazon Web Services), Angular, and React. These subjects have provided me with a comprehensive understanding of web development, cloud computing, and front-end frameworks. Through the Internet Computing course, I gained insights into various web technologies and learned how to design and develop dynamic and interactive web applications. The AWS course equipped me with knowledge of cloud infrastructure and services, enabling me to deploy scalable and reliable applications on the cloud. Moreover, studying Angular and React has allowed me to master modern front-end development frameworks, empowering me to build robust and user-friendly web interfaces. With a diverse range of coursework under my belt, I am well-prepared to tackle complex projects and contribute effectively in the field of software development."     />
 

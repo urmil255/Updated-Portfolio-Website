@@ -8,7 +8,7 @@ import React from "react";
 import project1 from "../../public/images/projects/port-cap.jpg";
 import order24 from  "../../public/images/projects/order24.png";
 import helixai from  "../../public/images/projects/helixai.png";
-
+import logo from "src/logo.png"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -137,6 +137,14 @@ const projects = () => {
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
+            <FeaturedProject
+  type="Featured Project"
+  title="MoodSphere"
+  summary="Architected MoodSphere using Python, Flask, React, HTML5, CSS3, and JavaScript. Developed emotion-based music recommendation algorithms by training a dataset of 80,000 images with ResNet50V2 and CNN, enhancing engagement by 30%. Led the team to ensure best practices in code quality, version control, and deployment using Docker and GCP."
+  img={logo}
+  link="https://moodsphere.vercel.app/"
+  github="https://github.com/htmw/2024S-Dev-Dynasty/wiki"
+/>
               <FeaturedProject
                 type="Featured Project"
                 title="Wayfarer"
@@ -173,6 +181,7 @@ const projects = () => {
             </div>
             </div>
            
+
            
            
             {/* <div className="col-span-6 sm:col-span-12">

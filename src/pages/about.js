@@ -58,7 +58,7 @@ const about = () => {
               </h2>
               <p className="font-medium">
               I can fix the world, but they wont give me the source code, muses Urmil, an aspiring software developer with a passion for making a difference. I am adept in programming, Hardware and Software assistance, Data Structures and Algorithms, as well as Front-end and Backend Development tools. 
-                clients&apos; visions to life.
+              
               </p>
 
               <p className="my-4 font-medium">
