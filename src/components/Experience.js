@@ -81,22 +81,25 @@ const Experience = () => {
 
           {/* Second Experience */}
           <Details
-            position="Software Development Intern"
+            position="Software Development Engineer"
             company="MTA (New York City Transit)"
             companyLink="https://new.mta.info/"
-            time="Feb 2024 – June 2024"
+            time="Jan 2024 – May 2024"
             address="New York, NY"
             work={
               <ul>
                <li style={{margin:"10px"}}> --
-                  Monitored, developed, and analyzed key business processes and metrics for transit operations using SQL and Power BI DirectQuery to create live dashboards, support ad hoc requests, enhance reporting tools, and track KPIs.
+               Automated fraud detection with a custom AWS service using machine learning, improving detection accuracy by 25%.
                 </li>
                 <li style={{margin:"10px"}}> --
-                  Engineered Power Automate flows and employed custom connectors in Power Apps to process data and connect to Teradata, improving data quality and achieving a 30% increase in processing speed.
+                Implemented data lake solutions on AWS S3 for storing, processing, and analyzing large-scale datasets, leveraging AWS
+ Glue and Athena for efficient ETL workflows and querying. meeting business requirements and adhering to best
+ practices.
                 </li>
                 <li style={{margin:"10px"}}> --
-                  Standardized data structures across 11 major contracts (valued at over $50M), cutting manual management efforts by 20% and ensuring future migrations.
-                </li>
+                Built responsive UIs with Angular, HTML5, CSS, Bootstrap, and JavaScript, focusing on intuitive and seamless user
+                experiences.
+                  </li>
               </ul>
             }
           />
@@ -145,21 +148,23 @@ const Experience = () => {
           {/* Fifth Experience */}
           <Details
             position="Software Development Engineer"
-            company="Beyon Data Solutions"
-            companyLink="https://beyondatagroup.com/"
-            time="Jan 2022 – Aug 2022"
+            company="Hexaware Technologies"
+            time="Feb 2020 – July 2022"
             address="Ahmedabad, India"
             work={
               <ul>
                <li style={{margin:"10px"}}> --
-                  Customized Odoo modules for finance and HR, boosting operational efficiency by 20% for three enterprise clients.
-                </li>
+               Developed and maintained Java applications using Spring Boot and Hibernate, achieving a 20application performance
+               and reliability.
+                               </li>
                 <li style={{margin:"10px"}}> --
-                  Developed a University management system using Python, PostgreSQL, and RPG ILE sub-file processing, managing over 10,000 student records efficiently.
-                </li>
+                Designed APIs for seamless data flow between databases (MySQL, PostgreSQL) and frontend applications, ensuring
+                efficient performance and reliable communication.
+                   </li>
                 <li style={{margin:"10px"}}> --
-                  Optimized back-end workflows with Linux Bash scripts and Python, improving security with AES and RSA encryption.
-                </li>
+                Automated cloud resource scaling in AWS environments, maintaining high application reliability and reducing manual
+                effort.
+                   </li>
               </ul>
             }
           />
